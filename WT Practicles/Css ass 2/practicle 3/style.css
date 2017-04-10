@@ -1,0 +1,10 @@
+body {
+	
+    background-color: powderblue;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: blue;
+}

@@ -1,0 +1,18 @@
+ Write a Javascript to print characters of a string at odd position.
+<html>
+<body>
+<script language = "javascript" type = "text/javascript">
+var mystring=prompt("Enter any string");
+var stringArray1=mystring.split(""); var x = stringArray1.length; document.write("<br>");
+var i;
+document.write("Characrter at odd position=");
+for(i=0;i<x;i++)
+{
+if(i%2 == 0)
+{
+document.write(stringArray1[i],",");
+}
+}
+</script>
+</body>
+</html>

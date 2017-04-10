@@ -1,0 +1,33 @@
+
+<!doctype html>
+<html>
+<head>
+	<title>Javascript to take 2 digit number </title>
+
+</head>
+<body>
+
+entered nubmer is :
+<p id="demo"></p>
+and answer is : 
+<script>
+
+var num =32;
+var n1,n2,result;
+n1 = Math.floor(num/10);
+n2 = Math.floor(num%10);
+result = 1;
+
+
+for(i=1; i<=n2; i++)
+{
+	
+	result=result*n1;
+}
+
+document.getElementById("demo").innerHTML = num; 
+
+document.write(result);
+</script>
+</body>
+</html>

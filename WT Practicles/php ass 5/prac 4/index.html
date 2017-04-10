@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>to get information</title>
+	<style type="text/css">
+		input {
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 70%;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #757575;
+ 
+}
+input:focus { outline: none; }
+label {
+	
+	font-size: 28px;
+	font-weight: normal;
+	pointer-events: none;
+	left: 5px;
+	top: 10px;
+	-webkit-transition:all 0.2s ease;
+	transition: all 0.2s ease;
+}
+	</style>
+</head>
+<body bgcolor="#ccddff">
+<center>
+<br><br><br>
+<form action="insert.php" method="post">
+	<label>Enter Your City Name : </label><input type="text" name="cname"><br>
+	<label>Enter Your Area :</label> <input type="text" name="area"><br>
+	<label>Enter Your Population :</label> <input type="text" name="pop"><br>
+	<input type="submit" value="insert record" name="confirm">
+</form>
+<form action="show.php" method="post">
+	<label>show all records</label><input type="submit" name="confirm">	
+</form>
+</center>
+</body>
+</html>

@@ -1,0 +1,8 @@
+/* Define styling properties for each tag of the xml file */
+ affiliated-to-GTU {margin-top: 10px;font-weight: bold;color: black;font-size: 15pt;}
+ student {margin-top:10px;font-weight:bold;color:black;font-size:25pt;}
+ info {display:block;margin-left:15px;color:gray;}
+ enroll, name {color:red;font-size:15pt;}
+ coll, branch {color:blue;font-size:15pt;}
+ yoj, email {color:green;font-size:15pt;}
+ newline {display: block;}

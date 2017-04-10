@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+<p id="data"></p>
+<script>
+function person(first, last, age, eye) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eye;
+}
+
+var myName = new person("yash","thakar",21,"brown");
+var myFriend = new person("parth", "chaudhary", 22, "blue");
+var myFriend2 = new person("harshil", "jadav", 25, "green");
+
+document.getElementById("demo").innerHTML =
+"My name is  " + myName.firstName + ". My myFriend is " + myFriend.firstName; 
+
+document.getElementById("data").innerHTML =
+"My myFriend is " + myFriend2.firstName + ". and his age is" + myFriend2.age; 
+
+</script>
+
+</body>
+</html>

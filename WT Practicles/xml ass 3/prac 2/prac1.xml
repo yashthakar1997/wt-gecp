@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+    <!-- Obtain stylesheet. Note that the xml file & css file should be in the same directory/location -->
+    <?xml-stylesheet type="text/css" href="4a.css" ?>
+    <affiliated-to-GTU>
+        GTU Affiliated colleges
+        <colleges><newline>
+            name of college<name>ALPHA COLLEGE OF ENGINEERING TECHNOLOGY</name>
+            city -<city>GANDHINAGAR</city>
+            name of college<name>BIRLA VISHVAKARMA MAHA VIDHYALAYAE</name>
+            city -<city>V. V. NAGAR</city>
+            name of college<name>GANDHINAGAR INSTITITE OF TECHNOLOGY</name>
+            city -<city>GANDHINAGAR</city>
+            name of college<name>L. D. ENGINEERING COLLEGE</name>
+            city -<city>AHMEDABAD</city>
+            name of college<name>SILVER OAK COLLEGE OF ENGINEERING TECHNOLOGY</name>
+            city -<city>AHMEDABAD</city>
+            name of college<name>GOVERNMENT ENGINEERING COLLEGE PATAN</name>
+            city -<city>PATAN</city></newline>
+        </colleges>
+        <student>
+            Student 1 details:
+                <info>
+                    roll no<enroll>150223107040</enroll> 
+                    Name<name>Mr YASH THAKAR</name> 
+                    name of collage<coll>GEC PATAN</coll> <newline></newline>
+                    Branch:<branch>CSE</branch> 
+                    Year Of Joining:<yoj>2015</yoj> 
+                    Email-ID:<email>yashthakar1997@gmail.com</email> 
+                </info>
+            Student 2 details:
+                <info>
+                    roll no<enroll>150223107014</enroll> 
+                    Name<name>YASH MEHTA</name> 
+                    name of collage<coll>GEC PATAN</coll> <newline></newline>
+                    Branch:<branch>CSE</branch> 
+                    Year Of Joining:<yoj>2015</yoj> 
+                    Email-ID:<email>yashmehta1507@gmail.com</email> 
+                </info>
+            Student 3 details:
+                <info>
+                    roll no<enroll>150223107004</enroll> 
+                    Name<name>Parth Chaudhary</name> 
+                    name of collage<coll>GEC Patan</coll> <newline></newline>
+                    Branch:<branch>CSE</branch> 
+                    Year Of Joining:<yoj>2015</yoj> 
+                    Email-ID:<email>parthchaudhary69@gmail.com</email> 
+                </info>
+            Student 4 details:
+                <info>
+                    roll no<enroll>150223107010</enroll> 
+                    Name<name>hj</name> 
+                    name of collage<coll>gecp</coll> <newline></newline>
+                    Branch:<branch>ec</branch> 
+                    Year Of Joining:<yoj>2015</yoj> 
+                    Email-ID:<email>hj@hj.com</email> 
+                </info>
+            Student 5 details:
+                <info>
+                    roll no<enroll>160220119027</enroll> 
+                    Name<name>rk</name> 
+                    name of collage<coll>GECP</coll> <newline></newline>
+                    Branch:<branch>MECH</branch> 
+                    Year Of Joining:<yoj>2015</yoj> 
+                    Email-ID:<email>rkss@samp.com</email> 
+                </info>           
+            </student>
+    </affiliated-to-GTU>    
